@@ -36,9 +36,7 @@ public class TestTekst {
 		tekst.setTekst("ny tekst");
 
 		assertEquals("ny tekst",tekst.getTekst());
-
 	}
-	
 	@Test
 	public void testToString() {
 		Tekst tekst = new Tekst(1,"Ole Olsen", "23-10","en tekst");

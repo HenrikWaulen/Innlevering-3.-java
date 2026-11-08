@@ -103,7 +103,7 @@ if(!ledigPlass()){return false;}
 	public boolean slett(Innlegg innlegg) {
         int i =finnInnlegg(innlegg);
         if(i<0){return false;}
-                Innlegg [] nyTabell = new Innlegg[innleggtabell.length];
+                Innlegg [] nyTabell = new Innlegg[getAntall()];
 
                 for (int j=0; j<getAntall()-1; j++){
                     if(j<i){nyTabell[j]=  innleggtabell[j];
